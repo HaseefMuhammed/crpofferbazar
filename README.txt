@@ -1,0 +1,13 @@
+Designed by : https://haseef-ws.netlify.app
+Developed by : https://webcraaft.42web.io
+
+Template Name: Furni
+Template Author: Untree.co
+Template License: https://creativecommons.org/licenses/by/3.0/
+Author URI: https://untree.co/
+
+Twitter: https://twitter.com/Untree_co
+Facebook: https://web.facebook.com/Untree.co/
+Pinterest: https://pinterest.com/Untree_co/
+
+
