@@ -786,3 +786,7 @@ textarea {
     body{
       scroll-behavior: smooth;
     }
+
+    .bg-custom{
+      background-color: #3b5d50;
+    }

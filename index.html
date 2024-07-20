@@ -17,7 +17,9 @@
   <meta name="keywords" content="bootstrap, bootstrap4" />
 
 		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		 <link rel="stylesheet" href="bootstrap.css">
+		 <script src="bootstrap.js"></script>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="css/tiny-slider.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -28,35 +30,36 @@
 	<body>
 
 		<!-- Start Header/Navigation -->
-		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark fixed-top" arial-label="Furni navigation bar">
-
-			<div class="container">
-				<a class="navbar-brand" href="index.html">CRP OFFER BAZAR<span>.</span></a>
-
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-sm bg-custom custom-navbar">
+			<div class="container-fluid">
+				<a class="navbar-brand text-white" href="index.html">CRP OFFER BAZAAR .</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
-				<div class="collapse navbar-collapse" id="navbarsFurni">
-					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home</a>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mx-5">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
 						</li>
-						<li><a class="nav-link" href="offer.html">Offers</a></li>
-						<li><a class="nav-link" href="about.html">About us</a></li>
-						<!-- <li><a class="nav-link" href="services.html">Services</a></li> -->
-						<!-- <li><a class="nav-link" href="blog.html">Blog</a></li> -->
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>  
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Link</a></li>
+								<li><a class="dropdown-item" href="#">Another link</a></li>
+								<li><a class="dropdown-item" href="#">A third link</a></li>
+							</ul>
+						</li>
 					</ul>
-
-					<!-- <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
-					</ul> -->
 				</div>
 			</div>
-				
 		</nav>
+		
 		<div class="p-5 spacebg"></div>
 		<!-- End Header/Navigation -->
 
@@ -365,7 +368,8 @@
 		<!-- End Footer Section -->	
 
 
-		<script src="js/bootstrap.bundle.min.js"></script>
+		<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+		 
 		<script src="https://kit.fontawesome.com/3945bc0b8d.js" crossorigin="anonymous"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/custom.js"></script>
